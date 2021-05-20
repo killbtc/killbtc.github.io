@@ -8,10 +8,14 @@ export default function Main() {
       <div className="child">
         <div className="title">
           <img className="logo" src={killbtc} alt="killbtc" />
-          <h1>Kill BTC!</h1>
-          <p>Tesla will sell their Bitcoins?</p>
-          <p>We are going to buy it all with $KillBTC's! HODL!</p>
-          <h2>Contract: <b>0x36577bb306a6963892d3258dd0623f04faf85700</b></h2>
+          <h1>Kill Bitcoin!</h1>
+          <p>Bitcoin's governance on the whole crypto market has to stop. </p>
+          <p>We lose money because of this crap.</p>
+          <p>We need to do something.</p>
+          <p>Buy $KBTC to protest against this fraud!</p>
+          <h2>
+            Contract: <b>0xb909b36583a651c96ef269a7a3dd8499f8e8b9dc</b>
+          </h2>
           <br />
           <a
             className="mr-5"
@@ -35,11 +39,7 @@ export default function Main() {
             </svg>
           </a>
 
-          <a
-            className="mr-5"
-            href="https://twitter.com/"
-            target="_blank"
-          >
+          <a className="mr-5" href="https://twitter.com/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-twitter"
@@ -57,11 +57,7 @@ export default function Main() {
             </svg>
           </a>
 
-          <a
-            className="mr-5"
-            href="https://www.reddit.com/"
-            target="_blank"
-          >
+          <a className="mr-5" href="https://www.reddit.com/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-reddit"
@@ -84,11 +80,7 @@ export default function Main() {
             </svg>
           </a>
 
-          <a
-            className="mr-5"
-            href="https://discord.gg/"
-            target="_blank"
-          >
+          <a className="mr-5" href="https://discord.gg/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-discord"
@@ -111,10 +103,7 @@ export default function Main() {
             </svg>
           </a>
 
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-          >
+          <a href="https://www.instagram.com/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-instagram"
@@ -140,7 +129,7 @@ export default function Main() {
             <h3>Tokenomics:</h3>
             <ul>
               <li>1,000,000,000,000 Max supply</li>
-              <li>63% of supply burnt at launch.</li>
+              <li>50% of supply burnt at launch.</li>
               <li>All supply added to liquidity</li>
               <li>Fair Launch</li>
             </ul>
@@ -150,52 +139,53 @@ export default function Main() {
             <ul>
               <li>3% burnt every swap</li>
               <li>3% distributed to holders</li>
-              <li>3% to dev & marketing</li>
-              <li>Use at least 9.5% slippage</li>
+              <li>Use at least 6.5% slippage</li>
             </ul>
           </div>
           <div>
             <h3>Proofs:</h3>
             <ul>
               <a
-                href="https://bscscan.com/address/0x36577bb306a6963892d3258dd0623f04faf85700"
+                href="https://bscscan.com/address/0xb909b36583a651c96ef269a7a3dd8499f8e8b9dc"
                 target="_blank"
               >
                 <li>Contract Address</li>
               </a>
               <a
-                href="https://bscscan.com/tx/0x26c3bcbf8c43721e5bd95c51a5bd3700a1d887e0b5b31dedb7e05b71f033699b"
+                href="https://bscscan.com/tx/0x01378aaea683932473e05237a00b27aa271f0b7ff4aaa69225293f76e3994310"
                 target="_blank"
               >
                 <li>Locked liquidity</li>
               </a>
               <a
-                href="https://bscscan.com/tx/0x26c3bcbf8c43721e5bd95c51a5bd3700a1d887e0b5b31dedb7e05b71f033699b"
+                href="https://bscscan.com/tx/0xf66946a4ee9d360359b78c4207f5cb5268de6e7fbd0fbedbc4841a85a33c5a75"
                 target="_blank"
               >
                 <li>Burnt tokens</li>
               </a>
               <a
-                href="https://charts.bogged.finance/?token=0x36577BB306A6963892D3258DD0623F04FAf85700"
+                href="https://charts.bogged.finance/?token=0xb909b36583a651c96ef269a7a3dd8499f8e8b9dc"
                 target="_blank"
               >
                 <li>Bogged chart</li>
               </a>
 
               <a
-                href="https://www.rugscreen.com/scan/certificate?tokenid=1fb351ae19"
+                href="https://tokensniffer.com/token/0xb909b36583a651c96ef269a7a3dd8499f8e8b9dc"
                 target="_blank"
               >
-                <li>Rugscreen</li>
+                <li>TokenSniffer</li>
               </a>
-              
             </ul>
           </div>
         </div>
 
         <div className="btn-action">
-          <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x36577BB306A6963892D3258DD0623F04FAf85700" target="_blank">
-            <button className="buybtn">Buy $FUCKBTC</button>
+          <a
+            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xb909b36583a651c96ef269a7a3dd8499f8e8b9dc"
+            target="_blank"
+          >
+            <button className="buybtn">Buy $KBTC</button>
           </a>
         </div>
       </div>
